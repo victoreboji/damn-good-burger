@@ -1,0 +1,36 @@
+.logo img{
+  width: 240px;
+  max-width:100%;
+  height: auto;
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+body nav ul li a:hover{
+    color:purple;
+    transform: translateY(-2px);
+}
+
+body nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+body nav ul li a{
+    text-decoration: underline;
+    color:black;
+    font-weight: 500;
+    font-size:17px;
+    transition: color 0.3s ease,transform 0.3s ease;
+}
+
+.instagram-link img{
+    width: 32px;
+    height: 32px;
+}
