@@ -13,18 +13,20 @@ nav {
 }
 
 body nav ul li a:hover{
-    color:purple;
+    color:rgb(15, 128, 0);
     transform: translateY(-2px);
+    display: inline-block;
 }
 
 body nav ul li{
     display: inline-block;
     margin: 0 15px;
+    padding:0 0.25rem;
 }
 
 body nav ul li a{
     text-decoration: underline;
-    color:black;
+    color:rgba(0, 0, 0, 0.779);
     font-weight: 500;
     font-size:17px;
     transition: color 0.3s ease,transform 0.3s ease;
@@ -33,4 +35,35 @@ body nav ul li a{
 .instagram-link img{
     width: 32px;
     height: 32px;
+}
+
+.hero img{
+    width: 260px;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.hero{
+    padding: 3rem 2rem;
+}
+
+.hero h1{
+    font-size: 3rem;
+    color:rgb(15, 128, 0)
+}
+
+.hero p{
+    max-width:60ch;
+    font-size:1.25rem;
+    line-height:1.6;
+}
+
+.btn{
+    background-color:purple;
+    color: white;
+    padding:0.75rem 1.5rem;
+    display: inline-block;
+    text-decoration:none;
+    border-radius: 0.5rem;
 }
