@@ -5,6 +5,13 @@
   display: block;
 }
 
+header{
+    position:sticky;
+    top:0;
+    background-color: white;
+    z-index:100;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -45,12 +52,19 @@ body nav ul li a{
 }
 
 .hero{
-    padding: 3rem 2rem;
+    min-height: 70vh;
+    padding:2rem;
+    box-sizing:border-box;
+    background-image: url("../images/storefront-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
 }
 
 .hero h1{
-    font-size: 3rem;
-    color:rgb(15, 128, 0)
+    font-size: 2rem;
+    color:white;
 }
 
 .hero p{
@@ -59,6 +73,13 @@ body nav ul li a{
     line-height:1.6;
 }
 
+.hero-content{
+    max-width:420px;
+    padding:1.5rem;
+    border-radius:0.5rem;
+    background-color:rgba(0, 0, 0, 0.75);
+    color:white;
+}
 .btn{
     background-color:purple;
     color: white;
@@ -66,4 +87,49 @@ body nav ul li a{
     display: inline-block;
     text-decoration:none;
     border-radius: 0.5rem;
+    transition:background-color 0.3s ease;
+    margin-top:1rem;
+}
+
+.btn:hover, .btn:focus-visible{
+    background-color:#580058;
+}
+
+.menu-section{
+    padding: 3rem 2rem;
+}
+
+.menu-item{
+    border:1px solid #dddddd;
+    padding:1.5rem;
+    border-radius:0.5rem;
+    max-width:280px;
+    text-align:center;
+}
+
+.menu-item img{
+    width: 100%;
+    height: 180px;
+    object-fit:contain;
+    display:block;
+}
+
+.menu-item summary{
+    cursor:pointer;
+}
+
+.menu-item summary span{
+    display:block;
+    margin-top:0.75rem;
+}
+
+.menu-item summary span:first-of-type{
+    font-weight:bold;
+    font-size:1.25rem;
+}
+
+.menu-item summary:focus-visible {
+  outline: 3px solid purple;
+  outline-offset: 6px;
+  border-radius: 0.25rem;
 }
