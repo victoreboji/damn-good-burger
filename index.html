@@ -1,95 +1,195 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Damn Good Burger</title>
-    <meta name="description" content="Damn Good Burger serves fresh burgers, chicken, fries, and hand-spun milkshakes in Austin, Texas.">
-    
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
-    <header id="home">
-      <nav>
-        <div class="logo">
-          <a href="home">
-           <img src="images/damn-good-burger-logo.png" alt="Damn Good Burger home">
-          </a>
-        </div>
-        
-        <ul>
-           <li><a href="#home">Home</a></li>
-           <li><a href="#menu">Menu</a></li>
-           <li><a href="#reserve">Reserve</a></li>
-           <li><a href="#reviews">Reviews</a></li>
-        </ul>
-      </nav>
-    </header>
+  <title>Damn Good Burger</title>
+  <meta name="description"
+    content="Damn Good Burger serves fresh burgers, chicken, fries, and hand-spun milkshakes in Austin, Texas.">
 
-    <main>
-     <section class="hero">
-       <div class="hero-content">
-         <h1>DAMN GOOD BURGER SINCE 2015</h1>
-         <p>
-           From our ranch to your table, we keep things simple:
-           quality burgers, crispy sides, and creamy shakes.
-           Quality we live by.
-         </p>
-         <a href="#menu" class="btn">View Menu</a>
-       </div>
-     </section>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-     <section id="menu" class="menu-section">
-       <h2>Our Menu</h2>
-       <article class="menu-item">
-         <details>
-           <summary>
-             <img src="images/cheeseburger.jpg" alt="Cheeseburger">
-             <span>Cheeseburger</span>
-             <span>$4.30</span>
-           </summary>
+<body>
+  <header id="home">
+    <nav>
+      <div class="logo">
+        <a href="home">
+          <img src="images/damn-good-burger-logo.png" alt="Damn Good Burger home">
+        </a>
+      </div>
 
-           <p>Served with lettuce, tomato, and special sauce.</p>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reserve">Reserve</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+      </ul>
+    </nav>
+  </header>
 
-           <p>No antibiotics, growth hormones, preservatives or nitrates.</p>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>DAMN GOOD BURGER SINCE 2015</h1>
+        <p>
+          From our ranch to your table, we keep things simple:
+          quality burgers, crispy sides, and creamy shakes.
+          Quality we live by.
+        </p>
+        <a href="#menu" class="btn">View Menu</a>
+      </div>
+    </section>
 
-           <p>
-             Grilled to order using 100% all-natural, never-frozen Black Angus
-             beef served with the freshest produce, classic American cheese,
-             and our homemade special sauce on a fresh baked bun.
-           </p>
+    <section id="menu" class="menu-section">
+      <h2>Our Menu</h2>
+      <div class="menu-grid">
+        <article class="menu-item">
+          <details>
+            <summary>
+              <img src="images/cheeseburger.jpg" alt="Cheeseburger">
+              <span>Cheeseburger</span>
+              <span>$4.30</span>
+            </summary>
 
-           <p>
-             <strong>Allergens:</strong>
-             Bun contains gluten &amp; soy | Cheese contains soy, dairy |
-             Special sauce contains egg.
-           </p>
-         </details>
-       </article>
-     </section>
-     <!-- Add the main sections of your page here. -->
-     
-    </main>
+            <p>Served with lettuce, tomato, and special sauce.</p>
 
-    <footer>
-      
-       <p>1800 Burger Lane, Austin, Texas</p>
-       <p>512-111-2222</p>
+            <p>No antibiotics, growth hormones, preservatives or nitrates.</p>
 
-     <a href="https://www.instagram.com/"
-       class="instagram-link"
-       aria-label="Follow Damn Good Burger on Instagram"
-       target="_blank"
-       rel="noopener noreferrer">
-  
-       <img
-       src="logos/instagram-brands-solid-full.svg"
-       alt="instagram logo">
-    
-      </a>
-    </footer>
+            <p>
+              Grilled to order using 100% all-natural, never-frozen Black Angus
+              beef served with the freshest produce, classic American cheese,
+              and our homemade special sauce on a fresh baked bun.
+            </p>
 
-  </body>
+            <p>
+              <strong>Allergens:</strong>
+              Bun contains gluten &amp; soy | Cheese contains soy, dairy |
+              Special sauce contains egg.
+            </p>
+          </details>
+        </article>
+        <article class="menu-item">
+          <details>
+            <summary>
+              <img src="images/double-cheeseburger.jpg" alt="Double cheeseburger with lettuce,tomato,and special sauce">
+              <span>Double Cheeseburger</span>
+              <span>$7.40</span>
+            </summary>
+
+            <p>Served with lettuce, tomato, and special sauce.</p>
+
+            <p>No antibiotics, growth hormones, preservatives or nitrates.</p>
+
+            <p>
+              Grilled to order using 100% all-natural, never-frozen Black Angus
+              beef, with the freshest produce, classic American cheese, and our
+              homemade special sauce, all on a fresh baked bun.
+            </p>
+
+            <p>
+              <strong>Allergens:</strong>
+              Bun contains gluten &amp; soy | Cheese contains soy, dairy |
+              Special sauce contains egg.
+            </p>
+          </details>
+        </article>
+        <article class="menu-item">
+          <details>
+            <summary>
+              <img src="images/grilled-chicken-sandwich.jpg"
+                alt="Grilled chicken sandwich with lettuce, tomato, and special sauce">
+              <span>Grilled Chicken Sandwich</span>
+              <span>$5.50</span>
+            </summary>
+
+            <p>Grilled chicken breast with lettuce, tomato, and our special sauce on a fresh bun.</p>
+
+            <p>No antibiotics, growth hormones, preservatives or nitrates.</p>
+
+            <p>
+              Grilled to order using 100% all-natural, never-frozen chicken
+              breast, with the freshest produce and our homemade special sauce,
+              all on a freshly baked bun.
+            </p>
+
+            <p>
+              <strong>Allergens:</strong>
+              Bun contains gluten &amp; soy | Special sauce contains egg.
+            </p>
+          </details>
+        </article>
+        <article class="menu-item">
+          <details>
+            <summary>
+              <img src="images/biscuits-and-gravy.jpg" alt="Three golden biscuits topped with creamy sausage gravy">
+              <span>Biscuits and Gravy</span>
+              <span>$6.45</span>
+            </summary>
+
+            <p>Three biscuits served with your choice of white gravy or sausage gravy.</p>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <section id="sides" class="menu-section">
+      <h2>Sides</h2>
+      <div class="menu-grid">
+        <article class="menu-item">
+          <details>
+            <summary>
+              <img src="images/fries.jpg" alt="Golden fresh-cut fries">
+              <span>Fries</span>
+              <span>$3.20</span>
+            </summary>
+
+            <p>Golden fresh-cut fries, made from fresh potatoes—not frozen or pre-bagged—lightly salted and served hot.</p>
+          </details>
+        </article>
+        <article class="menu-item">
+          <details>
+            <summary>
+              <img src="images/tater-tots.jpg" alt="Golden crispy tater tots">
+              <span>Tater Tots</span>
+              <span>$3.00</span>
+            </summary>
+
+            <p>Golden, crispy potato bites with a fluffy center, lightly salted and served hot.</p>
+          </details>
+        </article>
+        <article class="menu-item">
+          <details>
+            <summary>
+              <img src="images/chicken-tenders-menu.jpg" alt="Golden breaded chicken tenders in a parchment-lined tray">
+              <span>Chicken Tenders</span>
+              <span>$6.20</span>
+            </summary>
+
+            <p>Golden, crispy breaded chicken tenders, served hot.</p>
+          </details>
+        </article>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+
+    <p>1800 Burger Lane, Austin, Texas</p>
+    <p>512-111-2222</p>
+
+    <a href="https://www.instagram.com/" class="instagram-link" aria-label="Follow Damn Good Burger on Instagram"
+      target="_blank" rel="noopener noreferrer">
+
+      <img src="logos/instagram-brands-solid-full.svg" alt="instagram logo">
+
+    </a>
+  </footer>
+
+</body>
+
 </html>
