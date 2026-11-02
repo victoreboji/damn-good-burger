@@ -39,9 +39,32 @@ body nav ul li a{
     transition: color 0.3s ease,transform 0.3s ease;
 }
 
-.instagram-link img{
+.social-links img{
     width: 32px;
     height: 32px;
+    display: block;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f3f3f3;
+    border-top: 5px solid purple;
+}
+
+footer h2 {
+    color: #176b32;
+    font-family: Arial, sans-serif;
+    font-size: 1.25rem;
 }
 
 .hero img{
@@ -155,4 +178,5 @@ body nav ul li a{
   flex-wrap: wrap;
   gap: 1.5rem;
   align-items: flex-start;
+  justify-content:space-evenly;
 }
