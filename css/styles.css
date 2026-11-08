@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .logo img{
   width: 240px;
   max-width:100%;
@@ -17,6 +21,17 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  flex-wrap: wrap;
+gap: 1rem;
+}
+
+nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 body nav ul li a:hover{
@@ -27,7 +42,7 @@ body nav ul li a:hover{
 
 body nav ul li{
     display: inline-block;
-    margin: 0 15px;
+    margin: 0;
     padding:0 0.25rem;
 }
 
@@ -83,6 +98,7 @@ footer h2 {
     background-position: center;
     display: flex;
     align-items: flex-end;
+    border-bottom: 4px solid purple;
 }
 
 .hero-content h1{
@@ -122,8 +138,17 @@ footer h2 {
     background-color:#580058;
 }
 
+#menu {
+  background-color: #f2f7f3;
+}
+
+#sides,
+#shakes {
+  background-color: #faf6ef;
+}
+
 .menu-section{
-    padding: 3rem 2rem;
+    padding: 3rem min(2rem, 5%);
 }
 
 .menu-section > h2 {
@@ -142,8 +167,16 @@ footer h2 {
     border:1px solid #dddddd;
     padding:1.5rem;
     border-radius:0.5rem;
+    width:100%;
     max-width:280px;
     text-align:center;
+    background-color: #ffffff;
+}
+
+.menu-item:hover,
+.menu-item:focus-within {
+  border-color: #176b32;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 .menu-item img{
