@@ -17,6 +17,12 @@ Work in progress. The homepage, food menu, sides, shakes, and footer are built. 
 - Image alternative text, accessible social link labels, and visible keyboard focus styling on menu summaries.
 - Page title, description, and viewport metadata.
 
+## Core Updates
+
+- Added hover effects to menu cards so visitors get visual feedback as they browse.
+- Built a responsive reservation request form and linked it from **Reserve** in the header. The form is ready for a future submission handler so the restaurant can receive requests and confirm availability.
+- Updated the restaurant logo to link to `#home`, so clicking it returns visitors to the top of the homepage.
+
 ## Built with
 
 - HTML — page structure, content, links, and expandable menu details.
@@ -61,8 +67,8 @@ You can also open `index.html` directly in a browser; no build step or package i
 
 ## Still to do
 
-- Build the reservation and reviews sections; their navigation links do not have matching sections yet.
-- Correct the logo's home link to point to `#home`.
+- Connect the reservation form to a submission handler so the restaurant can receive requests and confirm availability.
+- Build the Reviews section and connect it to the header navigation.
 - Replace social media homepage placeholders with actual restaurant profile URLs.
 - Confirm restaurant contact information, hours, menu prices, ingredient claims, and allergen information before public use.
 - Test and refine the layout on smaller screens, especially the header and navigation.

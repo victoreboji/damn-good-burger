@@ -213,3 +213,57 @@ footer h2 {
   align-items: flex-start;
   justify-content:space-evenly;
 }
+
+.reservation-name-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.reservation-name-fields > div {
+    flex: 1 1 12rem;
+}
+
+.reservation-name-fields input {
+    width: 100%;
+}
+
+#reserve {
+    box-sizing: border-box;
+    max-width: 38rem;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    scroll-margin-top: 11rem;
+}
+
+#reserve label {
+    display: block;
+    margin-bottom: 0.375rem;
+}
+
+#reserve input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.625rem 0.75rem;
+    border: 1px solid #767676;
+    border-radius: 0.25rem;
+    font: inherit;
+}
+
+#reserve form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#reserve button {
+    align-self: center;
+    padding: 0.75rem 1.5rem;
+    border: 0;
+    border-radius: 0.75rem;
+    background-color: #19672e;
+    color: white;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
