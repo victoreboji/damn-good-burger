@@ -19,6 +19,7 @@ Work in progress. The homepage, food menu, sides, shakes, and footer are built. 
 
 ## Core Updates
 
+- Defined `--brand-green` as a shared CSS custom property for the menu headings, reservation button, and footer headings.
 - Added hover effects to menu cards so visitors get visual feedback as they browse.
 - Built a responsive reservation request form and linked it from **Reserve** in the header. The form is ready for a future submission handler so the restaurant can receive requests and confirm availability.
 - Updated the restaurant logo to link to `#home`, so clicking it returns visitors to the top of the homepage.
